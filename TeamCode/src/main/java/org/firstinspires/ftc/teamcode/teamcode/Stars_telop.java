@@ -5,8 +5,8 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 
-@TeleOp(name = "main", group = "StarterBot")
-public class Starscode<DcMotor> extends OpMode {
+@TeleOp(name = "Stars_telop", group = "StarterBot")
+public class Stars_telop<DcMotor> extends OpMode {
 
     // Declare OpMode members.
     private DcMotor leftFrontDrive = null;

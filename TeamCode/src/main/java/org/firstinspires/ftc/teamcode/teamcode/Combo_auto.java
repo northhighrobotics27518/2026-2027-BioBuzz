@@ -25,9 +25,9 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * we will also need to adjust the "PIDF" coefficients with some that are a better fit for our application.
  */
 
-@Autonomous(name = "starterAuto", group = "StarterBot")
+@Autonomous(name = "Combo_auto", group = "StarterBot")
 //@Disabled
-public class starterAuto extends LinearOpMode {
+public class Combo_auto extends LinearOpMode {
     final double FEED_TIME_SECONDS = 0.20; //The feeder servos run this long when a shot is requested.
     final double STOP_SPEED = 0.0; //We send this power to the servos when we want them to stop.
     final double FULL_SPEED = 1.0;
